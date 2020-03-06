@@ -1,10 +1,10 @@
 {
-    "name": "dirape/token",
+    "name": "rivalex/token",
     "description": "Unique Token Generator For Laravel",
     "authors": [
         {
-            "name": "MustafaKhaled",
-            "email": "MustafaKhaled.dev@gmail.com"
+            "name": "Rivalex",
+            "email": "info@rivalex.com"
         }
     ],
     "keywords": [
@@ -23,16 +23,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Dirape\\Token\\": "src/"
+            "Rivalex\\Token\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dirape\\Token\\TokenServiceProvider"
+                "Rivalex\\Token\\TokenServiceProvider"
             ],
             "aliases": {
-                "Token": "Dirape\\Token\\Facades\\Facade"
+                "Token": "Rivalex\\Token\\Facades\\Facade"
             }
         }
     },
